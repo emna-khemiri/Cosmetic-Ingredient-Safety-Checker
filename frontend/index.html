@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cosmetic Ingredient Safety Checker</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      min-height: 100vh;
+      background: linear-gradient(45deg, #1e3a8a, #3b82f6);
+      color: #ffffff;
+      overflow-x: hidden;
+    }
+
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center; /* Center the hero content */
+      padding: 20px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('https://source.unsplash.com/1600x900/?cosmetics') no-repeat center/cover;
+      opacity: 0.1;
+      z-index: -1;
+      transform: scale(1.1);
+      animation: parallax 20s linear infinite;
+    }
+
+    @keyframes parallax {
+      0% { transform: scale(1.1) translateY(0); }
+      100% { transform: scale(1.1) translateY(-100px); }
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 20px;
+      padding: 40px;
+      max-width: 500px;
+      width: 100%;
+      margin: 0 auto; /* Center the card horizontally */
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      animation: fadeIn 1s ease-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+      color: #ffffff;
+      text-align: center;
+      margin-bottom: 30px;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    .input-group {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+
+    input {
+      flex: 1;
+      padding: 14px 20px;
+      border: none;
+      border-radius: 50px;
+      background: rgba(255, 255, 255, 0.2);
+      color: #ffffff;
+      font-size: 16px;
+      transition: all 0.3s ease;
+    }
+
+    input::placeholder {
+      color: rgba(255, 255, 255, 0.7);
+    }
+
+    input:focus {
+      outline: none;
+      background: rgba(255, 255, 255, 0.3);
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    }
+
+    button {
+      padding: 14px 30px;
+      border: none;
+      border-radius: 50px;
+      background: #1e3a8a; /* Dark blue instead of orange */
+      color: #ffffff; /* White text */
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    button:hover:not(:disabled) {
+      background: #172554; /* Slightly darker blue on hover */
+      transform: scale(1.05);
+      box-shadow: 0 5px 15px rgba(30, 58, 138, 0.4); /* Matching shadow */
+    }
+
+    button:disabled {
+      background: rgba(255, 255, 255, 0.2);
+      color: rgba(255, 255, 255, 0.5);
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    #error {
+      color: #f87171;
+      font-size: 14px;
+      margin-bottom: 20px;
+      text-align: center;
+      min-height: 20px;
+      animation: shake 0.3s ease;
+    }
+
+    @keyframes shake {
+      0%, 100% { transform: translateX(0); }
+      25% { transform: translateX(-5px); }
+      75% { transform: translateX(5px); }
+    }
+
+    #results {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 20px;
+      border-radius: 12px;
+      font-size: 15px;
+      line-height: 1.6;
+      color: #e5e7eb;
+      white-space: pre-wrap;
+      max-height: 300px;
+      overflow-y: auto;
+      animation: slideUp 0.5s ease-out;
+    }
+
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        padding: 24px;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      .input-group {
+        flex-direction: column;
+      }
+
+      button {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <div class="card">
+      <h1>Cosmetic Ingredient Safety Checker</h1>
+      <div class="input-group">
+        <input type="text" id="ingredient" placeholder="Enter ingredient (e.g., Homosalate)">
+        <button onclick="checkIngredient()">Check</button>
+      </div>
+      <div id="error"></div>
+      <div id="results"></div>
+    </div>
+  </section>
+
+  <script>
+    async function checkIngredient() {
+      const input = document.getElementById('ingredient');
+      const resultsDiv = document.getElementById('results');
+      const errorDiv = document.getElementById('error');
+      const button = document.querySelector('button');
+      const ingredient = input.value.trim();
+
+      errorDiv.textContent = '';
+      resultsDiv.textContent = 'Loading...';
+      button.disabled = true;
+
+      if (!ingredient) {
+        errorDiv.textContent = 'Please enter an ingredient name.';
+        resultsDiv.textContent = '';
+        button.disabled = false;
+        return;
+      }
+
+      try {
+        const response = await fetch('http://localhost:8000/check', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ name: ingredient })
+        });
+        const data = await response.json();
+        if (response.ok) {
+          resultsDiv.textContent = data.safety_info;
+        } else {
+          errorDiv.textContent = data.detail || 'Error fetching data.';
+          resultsDiv.textContent = '';
+        }
+      } catch (err) {
+        errorDiv.textContent = 'Failed to connect to server.';
+        resultsDiv.textContent = '';
+      } finally {
+        button.disabled = false;
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,250 @@
+[
+  {
+    "Abbreviation": "AEEA",
+    "Chemical substance": "Aminoethylethanolamine"
+  },
+  {
+    "Abbreviation": "AMP",
+    "Chemical substance": "Aminomethyl propanol"
+  },
+  {
+    "Abbreviation": "AMPD",
+    "Chemical substance": "Aminomethyl propanediol"
+  },
+  {
+    "Abbreviation": "BHA",
+    "Chemical substance": "Butylated hydroxyanisole"
+  },
+  {
+    "Abbreviation": "BHT",
+    "Chemical substance": "Butylated hydroxytoluene"
+  },
+  {
+    "Abbreviation": "CHDM",
+    "Chemical substance": "Cyclohexanedimethanol"
+  },
+  {
+    "Abbreviation": "DATEM",
+    "Chemical substance": "Diacetyl Tartaric Acid Esters of Mono-and Diglycerides"
+  },
+  {
+    "Abbreviation": "DBM",
+    "Chemical substance": "Dibutylmaleate"
+  },
+  {
+    "Abbreviation": "DEA",
+    "Chemical substance": "Diethanolamine"
+  },
+  {
+    "Abbreviation": "DEDM",
+    "Chemical substance": "Diethylol dimethyl"
+  },
+  {
+    "Abbreviation": "DIBA",
+    "Chemical substance": "Dihydroxyisobutylamine"
+  },
+  {
+    "Abbreviation": "DIPA",
+    "Chemical substance": "Dlisopropanolamine"
+  },
+  {
+    "Abbreviation": "DM",
+    "Chemical substance": "Dimethyl"
+  },
+  {
+    "Abbreviation": "DMAP",
+    "Chemical substance": "Dimethyl aminopropyl"
+  },
+  {
+    "Abbreviation": "DMAPA",
+    "Chemical substance": "Dimethyl aminopropylamine"
+  },
+  {
+    "Abbreviation": "DMDM",
+    "Chemical substance": "Dimethylol dimethyl"
+  },
+  {
+    "Abbreviation": "DMHF",
+    "Chemical substance": "Dimethyl hydantoin formaldehyde resin"
+  },
+  {
+    "Abbreviation": "DMPA",
+    "Chemical substance": "Dimethylolpropionic acid"
+  },
+  {
+    "Abbreviation": "DNA",
+    "Chemical substance": "Deoxyribonucleic acid"
+  },
+  {
+    "Abbreviation": "DVB",
+    "Chemical substance": "Divinylbenzene"
+  },
+  {
+    "Abbreviation": "EDTA",
+    "Chemical substance": "Ethylenediamine tetraacetic acid"
+  },
+  {
+    "Abbreviation": "EDTHP",
+    "Chemical substance": "Ethylenediamine tetrahydroxy propylene"
+  },
+  {
+    "Abbreviation": "EDTMP",
+    "Chemical substance": "Ethylenediamine tetramethylene phosphonate"
+  },
+  {
+    "Abbreviation": "GLY",
+    "Chemical substance": "Glycine"
+  },
+  {
+    "Abbreviation": "HCl",
+    "Chemical substance": "Hydrochloride"
+  },
+  {
+    "Abbreviation": "HDI",
+    "Chemical substance": "Hexamethylene Diisocyanate"
+  },
+  {
+    "Abbreviation": "HEDTA",
+    "Chemical substance": "Hydroxyethyl ethylenediamine triacetic acid"
+  },
+  {
+    "Abbreviation": "HEMA",
+    "Chemical substance": "Hexaethyl Methacrylate"
+  },
+  {
+    "Abbreviation": "IPDI",
+    "Chemical substance": "Isophorone diisocyanate"
+  },
+  {
+    "Abbreviation": "MA",
+    "Chemical substance": "Maleic anhydride"
+  },
+  {
+    "Abbreviation": "MDM",
+    "Chemical substance": "Monomethylol dimethyl"
+  },
+  {
+    "Abbreviation": "MEA",
+    "Chemical substance": "Monoethanolamine"
+  },
+  {
+    "Abbreviation": "MEK",
+    "Chemical substance": "Methyl ethyl ketone"
+  },
+  {
+    "Abbreviation": "MIBK",
+    "Chemical substance": "Methyl isobutyl ketone"
+  },
+  {
+    "Abbreviation": "MIPA",
+    "Chemical substance": "Monoisopropanolamine"
+  },
+  {
+    "Abbreviation": "NTA",
+    "Chemical substance": "Nitrilotriacetic acid"
+  },
+  {
+    "Abbreviation": "PABA",
+    "Chemical substance": "p-Aminobenzoic acid"
+  },
+  {
+    "Abbreviation": "PCA",
+    "Chemical substance": "Pyrrolidone carboxylic acid"
+  },
+  {
+    "Abbreviation": "PEG",
+    "Chemical substance": "Polyethylene glycol"
+  },
+  {
+    "Abbreviation": "PEI",
+    "Chemical substance": "Polyethylenimine"
+  },
+  {
+    "Abbreviation": "PG",
+    "Chemical substance": "Propylene glycol"
+  },
+  {
+    "Abbreviation": "PPG",
+    "Chemical substance": "Polypropylene glycol"
+  },
+  {
+    "Abbreviation": "PTFE",
+    "Chemical substance": "Polytetrafluoroethylene"
+  },
+  {
+    "Abbreviation": "PVM/MA",
+    "Chemical substance": "Polyvinyl methyl ether/Maleic anhydride"
+  },
+  {
+    "Abbreviation": "PVP",
+    "Chemical substance": "Polyvinylpyrrolidone"
+  },
+  {
+    "Abbreviation": "q.v.",
+    "Chemical substance": "Quod vide"
+  },
+  {
+    "Abbreviation": "RNA",
+    "Chemical substance": "Ribonucleic acid"
+  },
+  {
+    "Abbreviation": "SD",
+    "Chemical substance": "Specially denatured"
+  },
+  {
+    "Abbreviation": "SE",
+    "Chemical substance": "Self-emulsifying"
+  },
+  {
+    "Abbreviation": "SIP",
+    "Chemical substance": "Sulfoisophtalate"
+  },
+  {
+    "Abbreviation": "SMDI",
+    "Chemical substance": "Saturated methylene dithenyldiisothionate"
+  },
+  {
+    "Abbreviation": "spp.",
+    "Chemical substance": "Non-specified species"
+  },
+  {
+    "Abbreviation": "TAED",
+    "Chemical substance": "Tetraacetylethylenediamine"
+  },
+  {
+    "Abbreviation": "TBHQ",
+    "Chemical substance": "tert-Butyl hydroquinone"
+  },
+  {
+    "Abbreviation": "TDI",
+    "Chemical substance": "Toluene diisocyanate"
+  },
+  {
+    "Abbreviation": "TEA",
+    "Chemical substance": "Triethanolamine"
+  },
+  {
+    "Abbreviation": "TIPA",
+    "Chemical substance": "Triisopropanolamine"
+  },
+  {
+    "Abbreviation": "TMMG",
+    "Chemical substance": "Tetramethoxymethylglucouril"
+  },
+  {
+    "Abbreviation": "TMMG",
+    "Chemical substance": "Tetramethoxymethylglycouril"
+  },
+  {
+    "Abbreviation": "TMP",
+    "Chemical substance": "Trimethylolpropane"
+  },
+  {
+    "Abbreviation": "VA",
+    "Chemical substance": "Vinyl acetate”"
+  },
+  {
+    "Abbreviation": "VP",
+    "Chemical substance": "Vinyl pyrrolidone"
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "Name": "ABRASIVE",
+    "Description": "Removing unwanted tissue or foreign materials from various body surfaces, including\nmechanical tooth cleaning and/or gloss improvement."
+  },
+  {
+    "Name": "ABSORBENT",
+    "Description": "Taking up water- and/or oil-soluble (dissolved or finely dispersed) substances."
+  },
+  {
+    "Name": "ADHESIVE",
+    "Description": "Tending to unite/bind/bond surfaces together."
+  },
+  {
+    "Name": "ANTI-SEBORRHEIC",
+    "Description": "Preventing or relieving the symptoms of seborrhea and/or seborrheic dermatitis, including\ndandruff."
+  },
+  {
+    "Name": "ANTI-SEBUM",
+    "Description": "Helping control sebum production."
+  },
+  {
+    "Name": "ANTICAKING",
+    "Description": "Preventing agglomeration of particulate solids into lumps or hard masses (cohesive cake), thus\nallowing free flow of particles."
+  },
+  {
+    "Name": "ANTICORROSIVE",
+    "Description": "Preventing and or inhibiting the corrosion of the packaging material."
+  },
+  {
+    "Name": "ANTIFOAMING",
+    "Description": "Suppressing foam during manufacturing or reducing the tendency of finished products to\ngenerate foam."
+  },
+  {
+    "Name": "ANTIMICROBIAL",
+    "Description": "Preventing and/or slowing down microbial growth."
+  },
+  {
+    "Name": "ANTIOXIDANT",
+    "Description": "Inhibiting reactions promoted by oxygen, thus avoiding oxidation and rancidity."
+  },
+  {
+    "Name": "ANTIPERSPIRANT",
+    "Description": "Reducing perspiration."
+  },
+  {
+    "Name": "ANTIPLAQUE",
+    "Description": "Helping protect against plaque."
+  },
+  {
+    "Name": "ANTISTATIC",
+    "Description": "Preventing and/or reducing static electricity by neutralising electrical charge on surfaces."
+  },
+  {
+    "Name": "ASTRINGENT",
+    "Description": "Contracting and/or tightening the skin."
+  },
+  {
+    "Name": "BINDING",
+    "Description": "Providing adhesive properties during and after compression in cosmetic tablets and/or cakes."
+  },
+  {
+    "Name": "BLEACHING",
+    "Description": "Bleaching or lightening the shade of hair and/or skin."
+  },
+  {
+    "Name": "BUFFERING",
+    "Description": "Stabilising the pH of an aqueous medium in a narrow range even if an acid or base is added.\nAltering and/or maintaining a cosmetic product's pH at the desired level."
+  },
+  {
+    "Name": "BULKING",
+    "Description": "Non-reactive (chemically inert), solid ingredients that dilute other solids and/or increase the\nvolume of cosmetic products."
+  },
+  {
+    "Name": "CHELATING",
+    "Description": "Forming complexes with metal ions which could affect the stability and/or appearance of\ncosmetics."
+  },
+  {
+    "Name": "CLEANSING",
+    "Description": "Helping to keep the body surface clean."
+  },
+  {
+    "Name": "COLORANT",
+    "Description": "Exclusively or mainly intended to colour the cosmetic product, the body as a whole or certain\nparts thereof, by absorption or reflection of visible light; (precursors of oxidative hair colorants\nshall be deemed colorants). All authorised colorants are substances in the positive list of Annex\nIV to the Cosmetics Regulation 1223/2009."
+  },
+  {
+    "Name": "DENATURANT",
+    "Description": "Rendering cosmetics unpalatable. Mostly added to cosmetics containing ethyl alcohol to make it\nunsuitable for ingestion."
+  },
+  {
+    "Name": "DEPILATORY",
+    "Description": "Breaking down the the mechanical strength of hair fibers so that they can be removed by mild\nscraping/rubbing."
+  },
+  {
+    "Name": "DETANGLING",
+    "Description": "Reducing or eliminating hair intertwining due to hair surface alteration or damage and, thus,\nhelping combing."
+  },
+  {
+    "Name": "DISPERSING NON-SURFACTANT",
+    "Description": "Facilitating the dispersion of solids in liquids. They function primarily by coating the solid\nthrough the process of adsorption, thus changing the surface characteristic of the suspended\nsolid."
+  },
+  {
+    "Name": "EMULSION STABILISING",
+    "Description": "Helping the process of emulsification and improving emulsion stability and shelf-life."
+  },
+  {
+    "Name": "EPILATING",
+    "Description": "Applied to the skin, and stripped off quickly to remove hair. With epilation the entire hair is\nremoved from the follicle, whereas with depilation the hair is removed only to the surface of the\nskin."
+  },
+  {
+    "Name": "EXFOLIATING",
+    "Description": "Initiating and/or accelerating removal of the layers of dead skin cells from the skin surface."
+  },
+  {
+    "Name": "EYELASH CONDITIONING",
+    "Description": "Conditioning and enhancing the appearance of eyelashes. Improving the gloss or sheen of\neyelashes, coating the eyelash hair to increase the appearance of its diameter and length, or\nhelping with the separation of the eyelash hair."
+  },
+  {
+    "Name": "FILM FORMING",
+    "Description": "Producing (upon application) a continuous film on the skin, hair or nails."
+  },
+  {
+    "Name": "FLAVOURING",
+    "Description": "Imparting taste and/or flavour to a cosmetic product."
+  },
+  {
+    "Name": "FOAMING",
+    "Description": "Traping numerous small bubbles of air or other gas within a small volume of liquid by modifying\nthe surface tension of the liquid."
+  },
+  {
+    "Name": "FRAGRANCE",
+    "Description": "Imparting an odour or taste. Creating a perceivable pleasant smell and/or masking a bad smell."
+  },
+  {
+    "Name": "GEL FORMING",
+    "Description": "Giving the consistency of a gel (a semi-solid preparation with some elasticity) to a liquid\npreparation."
+  },
+  {
+    "Name": "HAIR CONDITIONING",
+    "Description": "Enhancing the appearance and feel of hair. Leaving the hair easy to comb, supple, soft and shiny\nand/or imparting volume, lightness, gloss, texture, etc."
+  },
+  {
+    "Name": "HAIR DYEING",
+    "Description": "Imparting color to hair. Hair dyeing preparations may be temporary, semi-permanent,\npermanent, depending on the length of time the colorant remains on the hair."
+  },
+  {
+    "Name": "HAIR FIXING",
+    "Description": "Permitting physical control of hair style."
+  },
+  {
+    "Name": "HAIR WAVING OR STRAIGHTENING",
+    "Description": "Modifying the chemical structure of the hair, allowing it to be set in the style required\n(permanent waves or hair straightening)."
+  },
+  {
+    "Name": "HUMECTANT",
+    "Description": "Retaining and/or preserving the moisture in a product during use."
+  },
+  {
+    "Name": "KERATOLYTIC",
+    "Description": "Helping to eliminate the dead cells of the stratum corneum."
+  },
+  {
+    "Name": "LIGHT STABILIZER",
+    "Description": "Protecting the cosmetic product from deterioration effects of light."
+  },
+  {
+    "Name": "LYTIC",
+    "Description": "Helping to break down lipids, proteins, and polysaccharides into smaller components, usually by\nthe action of enzymes."
+  },
+  {
+    "Name": "MOISTURISING",
+    "Description": "Increasing the water content of the skin and keeping it soft and smooth."
+  },
+  {
+    "Name": "NAIL CONDITIONING",
+    "Description": "Improving and/or enhancing the cosmetic characteristics of the nail (moisturizing, increasing\nsheen, reducing brittleness and flaking, etc.)."
+  },
+  {
+    "Name": "NAIL SCULPTING",
+    "Description": "Forming a hard structure that resembles the nail plate."
+  },
+  {
+    "Name": "NOT REPORTED",
+    "Description": "No function currently reported"
+  },
+  {
+    "Name": "OPACIFYING",
+    "Description": "Reducing transparency or translucency of cosmetics."
+  },
+  {
+    "Name": "ORAL CARE",
+    "Description": "Providing cosmetic effects to the oral cavity, e.g. cleansing, deodorising, protecting."
+  },
+  {
+    "Name": "OXIDISING",
+    "Description": "Changing the chemical nature of another ingredient by adding oxygen (or removing hydrogen)."
+  },
+  {
+    "Name": "PEARLESCENT",
+    "Description": "Imparting a nacreous appearance to cosmetics."
+  },
+  {
+    "Name": "PERFUMING",
+    "Description": "Used for perfume and aromatic raw materials."
+  },
+  {
+    "Name": "pH ADJUSTERS",
+    "Description": "Controlling the pH of cosmetic products."
+  },
+  {
+    "Name": "PLASTICISER",
+    "Description": "Softening and making supple synthetic polumers that otherwise could not be easily deformed,\nspread or worked out."
+  },
+  {
+    "Name": "PRESERVATIVE",
+    "Description": "Exclusively or mainly intended to inhibit the development of micro-organisms in the cosmetic\nproduct. All authorised preservatives are substances in the positive list of Annex V to the\nCosmetics Regulation 1223/2009."
+  },
+  {
+    "Name": "PROPELLANT",
+    "Description": "Generating pressure in an aerosol pack, expelling contents when the valve is opened. Some\nliquefied propellants can act as solvents."
+  },
+  {
+    "Name": "REDUCING",
+    "Description": "Changing the chemical nature of another ingredient by adding hydrogen (or removing oxygen)."
+  },
+  {
+    "Name": "REFATTING",
+    "Description": "Replenishing the lipids of the hair or of the top layers of the skin."
+  },
+  {
+    "Name": "REFRESHING",
+    "Description": "Imparting a pleasant freshness to the skin."
+  },
+  {
+    "Name": "SKIN CONDITIONING",
+    "Description": "Maintaining the skin in good condition."
+  },
+  {
+    "Name": "SKIN CONDITIONING - EMOLLIENT",
+    "Description": "Acting as lubricants on the skin surface providing the skin with a soft and smooth appearance."
+  },
+  {
+    "Name": "SKIN CONDITIONING - HUMECTANT",
+    "Description": "Increasing the water content of the top layers of the skin. Humectants are primarily hygroscopic\nagents drawing moisture from the surrounding air."
+  },
+  {
+    "Name": "SKIN CONDITIONING - MISCELLANEOUS",
+    "Description": "Enhancing the appearance of dry and/or damaged skin by reducing flaking and restoring\nsuppleness."
+  },
+  {
+    "Name": "SKIN CONDITIONING - OCCLUSIVE",
+    "Description": "Retarding the evaporation of water from the skin surface. Occlusives are generally lipids which\ntend to remain on the skin surface and thus increase the water content of skin."
+  },
+  {
+    "Name": "SKIN PROTECTING",
+    "Description": "Helping to avoid harmful effects to the skin from external factors."
+  },
+  {
+    "Name": "SLIP MODIFIER",
+    "Description": "Enhancing the flow properties of other ingredients without reacting chemically with them."
+  },
+  {
+    "Name": "SMOOTHING",
+    "Description": "Seeking to achieve an even skin surface by decreasing roughness or irregularities."
+  },
+  {
+    "Name": "SOLVENT",
+    "Description": "Dissolving other components of cosmetics. Solvents are usually liquids (aqueous and\nnonaqueous)."
+  },
+  {
+    "Name": "SOOTHING",
+    "Description": "Lightening discomfort of the skin or of the scalp."
+  },
+  {
+    "Name": "SURFACE MODIFIER",
+    "Description": "Applied to other cosmetic components to make them more hydrophilic or hydrophobic, or to\nmodify their physical/chemical properties (in some cases, surface modifiers may form a covalent\nbond with substrates)."
+  },
+  {
+    "Name": "SURFACTANT - CLEANSING",
+    "Description": "Wetting body surfaces, emulsifying or solubilizing oils, and suspending soil (generally, such\ningredients contribute to the foaming and lathering properties of cleansing products)."
+  },
+  {
+    "Name": "SURFACTANT - DISPERSING",
+    "Description": "Helping distribute an insoluble solid in a liquid phase."
+  },
+  {
+    "Name": "SURFACTANT - EMULSIFYING",
+    "Description": "Helping suspensions or dispersions of liquids in a second liquid by reducing the surface tension\nof the substances to be emulsified."
+  },
+  {
+    "Name": "SURFACTANT - FOAM BOOSTING",
+    "Description": "Increasing foaming capacity and/or stabilize foams in general."
+  },
+  {
+    "Name": "SURFACTANT - HYDROTROPE",
+    "Description": "Enhancing the water solubility of another surfactant."
+  },
+  {
+    "Name": "SURFACTANT - SOLUBILIZING",
+    "Description": "Helping another component (solute) to dissolve in a medium in which it is not normally soluble."
+  },
+  {
+    "Name": "TANNING",
+    "Description": "Darkening the skin with or without exposure to UV."
+  },
+  {
+    "Name": "TONIC",
+    "Description": "Producing a feeling of well-being on skin and hair."
+  },
+  {
+    "Name": "UV ABSORBER",
+    "Description": "Protecting the cosmetic product from the effects of UV-light."
+  },
+  {
+    "Name": "UV FILTER",
+    "Description": "Exclusively or mainly intended to protect the skin and/or hair against certain UV radiation by\nabsorbing, reflecting or scattering UV radiation. All authorised UV filters are substances in the\npositive list of Annex VI to the Cosmetics Regulation 1223/2009."
+  },
+  {
+    "Name": "VISCOSITY CONTROLLING",
+    "Description": "Increasing or decreasing the viscosity (thickness) of cosmetics."
+  }
+]
