@@ -1,6 +1,7 @@
 # Cosmetic Ingredient Safety Checker
 
 A simple web application to check the safety status of cosmetic ingredients based on the EU COSING database, using ChromaDB for vector search and the Gemini API for safety explanations.
+![alt text](image.png)
 
 ## Overview
 This project provides a tool to query cosmetic ingredients and retrieve their safety status (e.g., prohibited, restricted, allowed) under EU regulations. It features:
